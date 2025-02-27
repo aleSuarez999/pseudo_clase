@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
+.primary-button{
+    font-family: "Titillium Web", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #1f1717;
+    /* radius */
+    border-radius: 0.5rem;
+}
+
+.primary-button:hover{
+    color: black;
+    background-color: rgb(129, 118, 118);
+    cursor:pointer
+}
+/* aparece cuando hago tab o hago click */
+.primary-button:focus{
+    outline: 2px solid #1f1f99;
+    outline-offset: 5px;
+}
+
+.primary-button:active{
+    color: #ce0e0e;
+    background-color: rgb(41, 37, 37);
+    cursor:pointer
+}
