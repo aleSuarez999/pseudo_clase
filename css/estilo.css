@@ -29,3 +29,18 @@
     background-color: rgb(41, 37, 37);
     cursor:pointer
 }
+
+main{
+    display: flex;
+}
+
+div{
+    background-color: #ce0e0e;
+    width: 25%;
+    
+}
+
+#verde{
+    background-color: green;
+    width: 50%;
+}

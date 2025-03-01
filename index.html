@@ -5,11 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <title>pseudo-class</title>
+    <style>
+        p{
+            display: inline;
+            /*width: 200px; los de linea no toman width ni heig*/
+        }
+        a{
+            display: block;
+            /* con esto hago que se comporte como de bloque, que use todo el width*/
+            /*display: none; no tiene sentido sin algun codigo que lo muestre*/
+        }
+    </style>
 </head>
 <body>
     <nav>       </nav>
     <header>    </header>
-    <main>      </main>
+    <main>   
+        <p>elemeto de bloque 1</p>   
+        <p>elemento de bloque 2</p>
+        <a href="http://">vinculo es un elemento de linea</a>
+        <p>parrafo 3</p>
+    </main>
+
+    <main>
+            <div>1</div>
+            <div id="verde">2</div>
+            <div>3</div>
+    </main>
     <footer>    </footer>
 </body>
 </html>
